@@ -1,0 +1,101 @@
+# Dependencies
+node_modules/
+yarn.lock
+package-lock.json
+jspm_packages/
+/*-*.*.*.tgz
+
+# Bot credentials & tokens
+bot-token.txt
+*token*.txt
+*token*.json
+*.token
+credentials.json
+client_secret*.json
+service-account*.json
+secrets.json
+secret*.json
+
+# Environment variables & configurations
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+!.env.*.example
+
+# Database connection credentials & local DBs
+*dbconn*
+*db-conn*
+!*db-conn*.example.json
+!*dbconn*.example.json
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.dump
+
+# Bot runtime data, persistence & Telegram sessions
+persist
+persist/
+usage.json
+*.binlog
+*.session
+*.session-journal
+sessions/
+
+# Certificates & private keys
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+
+# Build & test outputs
+dist/
+build/
+out/
+coverage/
+.nyc_output
+.serverless/
+*.tsbuildinfo
+
+# Logs & process managers
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pm2/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files & cache
+tmp/
+temp/
+.temp/
+.cache/
+

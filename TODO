@@ -1,0 +1,22 @@
+post: "storeUser" riceve: telegramUserId, telegramFirstName, telegramUserName
+post: "storeUserTerms" riceve: imOfAge, acceptTerms
+post: "createProfile" riceve: telegramUserId, name, age, gender, isReal, shortDescription, longDescription
+post: "deleteProfile" riceve: profileId
+post: "addPhoto" riceve: profileId, photo
+post: "addAudio" riceve: profileId, audio
+post: "banUser" riceve: telegramUserId, boolean, reason
+post: "lockProfile" riceve: profileId, boolean
+post: "approveProfile" riceve: profileId, boolean
+get: "profiles" riceve: nessun parametro
+get: "bannedProfiles" riceve: nessun parametro
+get: "lockedProfiles" riceve: nessun parametro
+post: "likeProfile" riceve: sourceTelegramUserId, destinationTelegramUserId, messagge
+post: "sendMessage" riceve: profileId, replyToProfileId, messageId, replyToMessageId, messagge
+post: "voteMessage" riceve: messageId, vote
+post: "emojiMessage" riceve: messageId, emoji
+post: "reportMessage" riceve: messageId, message
+post: "blockProfile" riceve: telegramUserId, profile_id
+post: "blockUser" riceve: telegramUserId, user_id
+
+
+farsi creare la lista dei generi
